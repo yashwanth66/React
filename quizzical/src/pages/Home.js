@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Quiz from "../components/Quiz";
 import { nanoid } from "nanoid";
+import Confetti from "react-confetti"
 
 export default function Home() {
     const [quizData, setQuizData] = useState([]);
@@ -100,6 +101,7 @@ export default function Home() {
     };
     return (
         <div className="home-container">
+        {resultCount === 5 && <Confetti/>}
             <div className="questions-container">
                 {elements}
             </div>
