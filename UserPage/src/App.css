@@ -1,0 +1,88 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+}
+.top-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    background-color: black;
+    color:aliceblue;
+}
+.box{
+    margin: 0 30px 0px 30px;
+    width: 300px;
+    height: auto;
+}
+.info-items{
+    justify-content:center;
+    text-align: center;
+    
+}
+.info-items > img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.info-heading{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.info-subheading{
+    margin-top: -15px;
+    font-family: sans-serif;
+    font-size: small;
+    color: lightgoldenrodyellow;
+}
+.info-location{
+    margin-top: -15px;
+    font-family: sans-serif;
+    font-size: 11px;
+    color: lightgoldenrodyellow;
+}
+.info-buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-buttons > button {
+    width: 130px;
+    padding: 3px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.linkedin-button{
+    background-color: rgb(26, 119, 226);
+}
+.about > h3{
+    font-weight:bolder;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.about > p{
+    margin-top: -10px;
+}
+.interests > h3{
+    font-weight:bolder;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.interests > p{
+    margin-top: -10px;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    padding: 0px;
+}

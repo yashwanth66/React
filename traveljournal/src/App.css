@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+.main{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+}
+.container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  background-color: orangered;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.nav > img{
+  width: 30px;
+  margin-right: 7px;
+}
+.nav > a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-top: 40px;
+  border-radius: 10px;
+  position: relative;
+}
+.loc--img{
+  width: 300px;
+  height: auto;
+  border-radius: 30px;
+}
+.mark--img{
+  width:20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.cards--info{
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.location{
+  display: flex;
+  flex-direction: row;
+}
+.visitor{
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  background-color: aliceblue;
+  padding: 2px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .nav{
+    width: 600px;
+  }
+  .container{
+    margin: 0;
+    background-color: aliceblue;
+    width: 600px;
+  }
+  .main{
+    margin: 0;
+    width: 600px;
+  }
+  .cards{
+  }
+
+}

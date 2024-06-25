@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 245, 214);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50%;
+  padding: 60px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-info {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-info h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.app-info p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.start-button {
+  margin-top: 20px;
+}
+
+.start-button a {
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: #007bff; /* Blue primary color */
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.start-button a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.home-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgb(161, 216, 225);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.questions-container {
+  margin-top: 20px;
+}
+
+.questions-block {
+  margin-bottom: 20px;
+}
+
+.que {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.options-info {
+  cursor: pointer;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.options-info:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+}
+
+.checkQuestions,
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.checkQuestions {
+  background-color: #d9edf7; /* Light blue */
+}
+
+.result {
+  background-color: #dff0d8; /* Light green */
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff; /* Blue primary color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
